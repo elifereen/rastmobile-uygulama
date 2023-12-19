@@ -1,0 +1,100 @@
+body {
+    background-color: #E8EAF6;
+    margin: 0;
+    padding: 0;
+
+ 
+}
+
+.oval-form {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin: 30px;
+    
+    overflow: hidden;
+
+}
+
+.oval-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.oval-form button {
+    background-color:#6200EA;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.button-container {
+    text-align: right;
+    margin-right: 120px;
+    margin-top: -115px; /* İstenilen sola hizalama için uygun bir boşluk bırakabilirsiniz */
+  }
+  
+  .custom-button {
+    background-color: #6200EA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .custom-button:hover {
+    background-color: #5a45a0;
+  }
+
+/* Navbar stilini tanımla */
+.navbar {
+    background-color: white;
+    /* Beyaz arka plan */
+    padding: 35px;
+    /* İstenilen boşluk değeri */
+    text-align: center;
+}
+
+/* Navbar bağlantılarını stilini tanımla */
+.navbar a {
+    text-decoration: none;
+    /* Alt çizgiyi kaldır */
+    color: black;
+    /* Bağlantı rengi */
+    margin: 0 65px;
+    /* Bağlantılar arasındaki boşluk */
+    font-size: 18px;
+    /* Font büyüklüğü */
+
+}
+
+.navbar-icon img {
+    width: 170px;
+    /* İkon genişliği */
+    height: 70px;
+    /* İkon yüksekliği */
+    margin-top: -20px;
+    margin-bottom: 0px;
+    float: left;
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 60px;
+  }
+
+  table, th, td {
+    border: 1px solid rgb(80, 80, 143);
+  }
+
+  th, td {
+    padding: 19px;
+    text-align: left;
+  }
